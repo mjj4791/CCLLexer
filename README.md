@@ -8,3 +8,24 @@ To use this lexer
 * run pygments on ccl code
     * pygmentize -l ccl -x -f html -O full,style=monokai -o output/monokai_inc.html ./hello_world.inc
 * view the output generated
+
+# Examples
+Below are some example outputs, based on a dummy CCL script and some of the styles supported by pygments:
+
+Default:\
+![Default](https://github.com/mjj4791/CCLLexer/blob/master/img/default.png)
+
+Monokai:\
+![Monokai](https://github.com/mjj4791/CCLLexer/blob/master/img/monokai.png)
+
+Native:\
+![Native](https://github.com/mjj4791/CCLLexer/blob/master/img/native.png)
+
+Perldoc:\
+![Native](https://github.com/mjj4791/CCLLexer/blob/master/img/perldoc.png)
+
+Solarized:\
+![solarized-dark](https://github.com/mjj4791/CCLLexer/blob/master/img/solarized-dark.png)
+![solarized-light](https://github.com/mjj4791/CCLLexer/blob/master/img/solarized-light.png)
+
+
